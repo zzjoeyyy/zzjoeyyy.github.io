@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>zzJoeyyy.com</title>
+  <title>zzJoeyyy</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -37,19 +37,19 @@
   </entry>
   
   <entry>
-    <title>world</title>
+    <title>Hello World</title>
     <link href="http://zzjoeyyy.com/2018/11/15/hello-world/"/>
     <id>http://zzjoeyyy.com/2018/11/15/hello-world/</id>
     <published>2018-11-15T05:50:27.000Z</published>
-    <updated>2018-11-15T06:02:00.865Z</updated>
+    <updated>2018-11-15T06:22:36.664Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="zzjoeyyy"><a href="#zzjoeyyy" class="headerlink" title="zzjoeyyy"></a>zzjoeyyy</h1><p><a href="zzjoeyyy.com">zzjoeyyy.com</a><br><a href="zzjoeyyy.github.io">zzjoeyyy.github.io</a></p><ol><li>move to github</li><li>add personal domain</li><li>start happy coding</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="zzjoeyyy"><a href="#zzjoeyyy" class="headerlink" title="zzjoeyyy"></a>zzjoeyyy</h1><p><a href="http://zzjoeyyy.com">zzjoeyyy.com</a><br><a href="http://zzjoeyyy.github.io" target="_blank" rel="noopener">zzjoeyyy.github.io</a></p><ol><li>move to github</li><li>add personal domain</li><li>start happy coding</li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;zzjoeyyy&quot;&gt;&lt;a href=&quot;#zzjoeyyy&quot; class=&quot;headerlink&quot; title=&quot;zzjoeyyy&quot;&gt;&lt;/a&gt;zzjoeyyy&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;zzjoeyyy.com&quot;&gt;zzjoeyyy.com&lt;/a&gt;&lt;br&gt;&lt;a 
+        &lt;h1 id=&quot;zzjoeyyy&quot;&gt;&lt;a href=&quot;#zzjoeyyy&quot; class=&quot;headerlink&quot; title=&quot;zzjoeyyy&quot;&gt;&lt;/a&gt;zzjoeyyy&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://zzjoeyyy.com&quot;&gt;zzjoeyyy.com&lt;/a&gt;
       
     
     </summary>
