@@ -58,7 +58,7 @@
 <meta property="og:image" content="http://zzjoeyyy.com/2018/11/15/深度学习笔记/吴恩达深度学习4-3-2.png">
 <meta property="og:image" content="http://zzjoeyyy.com/2018/11/15/深度学习笔记/吴恩达深度学习4-4-1.png">
 <meta property="og:image" content="http://zzjoeyyy.com/2018/11/15/深度学习笔记/吴恩达深度学习4-4-2.png">
-<meta property="og:updated_time" content="2018-11-15T06:51:36.157Z">
+<meta property="og:updated_time" content="2018-11-15T11:37:55.113Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="深度学习笔记">
 <meta name="twitter:description" content="神经网络和深度学习学习自网易云课堂,参考吴恩达深度学习课程辅导、Weber 感谢网易云课堂和deeplearning.ai，非常感谢Andrew Ng老师，图片来自课件文档">
@@ -527,7 +527,9 @@ ga('send', 'pageview');
 <h2 id="3-11-随机初始化"><a href="#3-11-随机初始化" class="headerlink" title="3.11 随机初始化"></a>3.11 随机初始化</h2><p><strong>如果将各参数数组全部初始化为0再使用梯度下降算法，会完全无效</strong> </p>
 <p>如果W数组中全部被初始化为0，那么隐藏单元就是对称的，所有隐藏单元都在计算同样的函数，无效</p>
 <p>b可以初始化为0，没有对称性问题</p>
-<p><strong>正确做法：</strong><br>$$<br>\begin{aligned}<br>W^{[1]} &amp;=np.random.rand((2,2))<em>0.01 \<br>b^{[1]}&amp;=np.zero((2,1)) \<br>W^{[2]}&amp;=np.random.rand((1,2))</em>0.01. \<br>b^{[2]}&amp;=np.zero((1,1))\ /\ b^{[2]}=0 \<br>\end{aligned}<br>$$<br>通常会把W设成一个很小的数来使学习加速（使落在tanh或sigmoid函数落在图像中梯度斜率较大的部分）</p>
+<p><strong>正确做法：</strong> </p>
+<p>$$<br>\begin{aligned}<br>W^{[1]} &amp;=np.random.rand((2,2))<em>0.01 \<br>b^{[1]}&amp;=np.zero((2,1)) \<br>W^{[2]}&amp;=np.random.rand((1,2))</em>0.01. \<br>b^{[2]}&amp;=np.zero((1,1))\ /\ b^{[2]}=0 \<br>\end{aligned}<br>$$</p>
+<p>通常会把W设成一个很小的数来使学习加速（使落在tanh或sigmoid函数落在图像中梯度斜率较大的部分）</p>
 <p><img src="/2018/11/15/深度学习笔记/吴恩达深度学习3-11-1.png" alt="3-11-1"></p>
 <p><img src="/2018/11/15/深度学习笔记/吴恩达深度学习3-11-2.png" alt="3-11-2"></p>
 <hr>
